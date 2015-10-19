@@ -1,0 +1,36 @@
+<style>
+.chageImagePosition {
+ text-align: center;
+     }
+body
+
+
+{
+  margin:0px auto;
+  background:#BBBBBB;
+}
+#list {
+  position:relative;
+  top:7px;
+  width:800px;
+  height:1200px;
+  background:#FFFFFF;
+  padding:10px;
+  margin-left:auto; margin-right:auto;
+
+
+}
+#list2 {
+  width:100%;
+  font-size:17px;
+  color:#000000;
+}
+#footer {
+  width:100%;
+  height:50px;
+}
+p {
+  margin-top:20px;
+  margin-left:70px;
+}
+</style>
