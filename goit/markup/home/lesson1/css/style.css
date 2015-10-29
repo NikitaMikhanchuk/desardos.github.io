@@ -2,12 +2,14 @@
 body{
   background:#BBBBBB;
 }
+
 .list {
   width:700px;
   background:#FFFFFF;
-  padding:10px;
+  padding:15px;
   margin:auto
 }
+
 
 .personInfo{
   border-bottom: 1px solid grey;
@@ -20,6 +22,7 @@ body{
   text-align: center;
   font: 19px, Helvetica, sans-serif;
   line-height: 25px;
+
 }
 
 .explainQuestion_1, .explainQuestion_2{
@@ -44,6 +47,7 @@ body{
 .changePadding{
   padding-left: 30px
 }
+
 
 .changeTextPosition{
   padding-left: 45px
