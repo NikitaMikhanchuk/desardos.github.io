@@ -10,22 +10,21 @@ body{
   margin:auto
 }
 
-
-.personInfo{
+.person_Info{
   border-bottom: 1px solid grey;
   text-align: center;
   font:17px, Helvetica, sans-serif;
   line-height: 25px;
 }
 
-.additionalInformation{
+.additional_Information{
   text-align: center;
   font: 19px, Helvetica, sans-serif;
   line-height: 25px;
 
 }
 
-.explainQuestion_1, .explainQuestion_2{
+.explain_Question_1, .explain_Question_2{
   font-family: Helvetica, sans-serif;
 	font-weight: normal;
 	line-height: 24px;
@@ -36,7 +35,7 @@ body{
   padding-left: 45px
 }
 
-.explainQuestion_3{
+.explain_Question_3{
   font-family: Helvetica, sans-serif;
 	font-weight: normal;
 	line-height: 25px;
@@ -55,11 +54,10 @@ body{
   padding-left: 45px
 }*/
 
-.deleteIndent{
+.delete_Indent{
   line-height: 1px;
 
 }
-
 
 
 /*.list2 {
