@@ -7,19 +7,19 @@ body{
   width:700px;
   background:#FFFFFF;
   padding:15px;
-  margin:auto
+  margin: 0 auto;
 }
 
 .person_Info{
   border-bottom: 1px solid grey;
   text-align: center;
-  font:17px, Helvetica, sans-serif;
+  font-family: 17px, Helvetica, sans-serif;
   line-height: 25px;
 }
 
 .additional_Information{
   text-align: center;
-  font: 19px, Helvetica, sans-serif;
+  font-family: Helvetica, 19px, sans-serif;
   line-height: 25px;
 
 }
@@ -53,12 +53,6 @@ body{
 /*.changeTextPosition{
   padding-left: 45px
 }*/
-
-.delete_Indent{
-  line-height: 1px;
-
-}
-
 
 /*.list2 {
   width:100%;
