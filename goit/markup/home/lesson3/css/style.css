@@ -4,14 +4,17 @@ body{
   margin-left: 350px;
 }
 
-.list {
+.global_text_Style {
+    font-family: Helvetica;
+}
 
+.list {
   background:#FFFFFF;
   padding:15px;
   margin: 0 auto;
   width: 1400px;
-}
 
+}
 
 .head_menu ul{
   font-size: 0;
@@ -105,9 +108,8 @@ p {
 }
 
 .left_menu li:hover {
-    /*background: linear-gradient(0deg, #444343 0%, #5e5e5e 100%);*/
-    border-right: 1px solid #959595;
-    border-left: 1px solid #959595;
+    background: linear-gradient(0deg, #f9f9f9 0%, #f6f2f2 100%);
+
 }
 
 
@@ -131,11 +133,12 @@ p {
 
 .bottom_menu a{
   text-decoration: none;
+  color: black;
 }
 
 
 .copy {
-    display: inline-block;
+    white-space: pre;
     width: 365px;
-    padding-left: 300px;
+    padding-left: 380px;
 }
