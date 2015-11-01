@@ -1,0 +1,141 @@
+body{
+  background:#00000;
+  width: 1300px;
+  margin-left: 350px;
+}
+
+.list {
+
+  background:#FFFFFF;
+  padding:15px;
+  margin: 0 auto;
+  width: 1400px;
+}
+
+
+.head_menu ul{
+  font-size: 0;
+  line-height: 0;
+  margin-bottom: 55px;
+  background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+  width: 1065px;
+}
+
+.head_menu li {
+
+  display: inline-block;
+  font-size: 14px;
+  width: 130px;
+  line-height: 45px;
+  letter-spacing: normal;
+  text-align: center;
+
+}
+
+/*.head_menu a{
+  text-decoration: none;
+}*/
+
+.head_menu li a{
+    color: white;
+    text-decoration: none;
+}
+
+.head_menu li:hover {
+    background: linear-gradient(0deg, #444343 0%, #5e5e5e 100%);
+    border-right: 1px solid #959595;
+    border-left: 1px solid #959595;
+}
+
+.image_rotation{
+  float: right;
+  width: 50%;
+  border: 2px solid #eae8e8;
+  margin: 0px 200px 10px 10px;
+  text-align: center;
+}
+
+.text {
+    clear: both;
+    padding-left: 447px;
+    padding-right: 200px;
+}
+
+p {
+    padding: 0px 0px 0px 0px;
+    text-align: justify;
+    font-family: OpenSans;
+}
+
+
+.left_menu{
+  display: inline-block;
+  width: 130px;
+  float: left;
+  width: 240px;
+  font-size: 14px;
+  border: 1px solid #eae8e8;
+  margin:0px;
+}
+
+
+.left_menu ul{
+  padding-left: 0;
+  margin-bottom: auto;
+
+}
+
+.left_menu li{
+  display: inline-block;
+}
+
+.left_menu a{
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #eae8e8;
+    color: black;
+    width: 225px;
+    height: 30px;
+    padding: 10px 2px 2px 15px;
+    text-align: left;
+}
+
+.left_menu li a{
+    text-decoration: none;
+}
+
+.left_menu li:hover {
+    /*background: linear-gradient(0deg, #444343 0%, #5e5e5e 100%);*/
+    border-right: 1px solid #959595;
+    border-left: 1px solid #959595;
+}
+
+
+.bottom_menu ul{
+  margin-top: 35px;
+  background: #e1e1e1;
+  font-size: 0;
+  line-height: 0;
+  width: 1065px;
+}
+
+.bottom_menu li{
+    display: inline-block;
+    font-size: 14px;
+    width: 130px;
+    line-height: 45px;
+    letter-spacing: normal;
+    text-align: center;
+
+}
+
+.bottom_menu a{
+  text-decoration: none;
+}
+
+
+.copy {
+    display: inline-block;
+    width: 365px;
+    padding-left: 300px;
+}
