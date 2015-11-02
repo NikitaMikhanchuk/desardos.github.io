@@ -28,6 +28,11 @@ body{
   font-size: 18px;
   border-top: 1px solid grey;
 
+.edit_Style{
+  text-align: left;
+  padding-left: 55px;
+}
+
 }
 
 h3{
@@ -44,11 +49,9 @@ p{
   padding-left: 70px;
 }
 
-.edit_Style{
-  text-align: left;
-  padding-left: 55px;
+
+a{
+  padding-left: 85px;
 }
-
-
 
 
