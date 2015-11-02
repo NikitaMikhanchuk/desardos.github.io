@@ -9,54 +9,46 @@ body{
   background:#FFFFFF;
   padding:15px;
   margin: 0 auto;
+
 }
 
 .person_Info{
-  border-bottom: 1px solid grey;
   text-align: center;
-  font-family: 17px, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
+  font-size: 19px;
   line-height: 25px;
 }
 
 .additional_Information{
-  text-align: center;
-  font-family: Helvetica, 19px, sans-serif;
+  font-family: Helvetica, sans-serif;
+  font-size: 19px;
   line-height: 25px;
+  font-weight: normal;
+  text-indent: 15px;
+  font-size: 18px;
+  border-top: 1px solid grey;
 
 }
 
-.explain_Question_1, .explain_Question_2{
+h3{
+text-align: center;
+}
+
+ul{
   font-family: Helvetica, sans-serif;
-	font-weight: normal;
-	line-height: 24px;
-	text-align: left;
-	text-indent: 15px;
-	font-size: 18px;
-  border-bottom: 1px solid grey;
-  padding-left: 45px
+  padding-left: 75px;
 }
 
-.explain_Question_3{
+p{
   font-family: Helvetica, sans-serif;
-	font-weight: normal;
-	line-height: 25px;
-	text-align: left;
-	text-indent: 15px;
-	font-size: 18px;
-  padding-left: 45px
+  padding-left: 70px;
 }
 
-/*.changePadding{
-  padding-left: 30px
-}*/
+.edit_Style{
+  text-align: left;
+  padding-left: 55px;
+}
 
 
-/*.changeTextPosition{
-  padding-left: 45px
-}*/
 
-/*.list2 {
-  width:100%;
-  font-size:17px;
-  color:#000000;
-}*/
+
