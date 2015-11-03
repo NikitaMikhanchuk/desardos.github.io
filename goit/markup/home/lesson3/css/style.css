@@ -4,8 +4,12 @@ body{
   margin-left: 350px;
 }
 
+.wrapper{
+  /*here is height*/
+}
+
 .global_text_Style {
-    font-family: Helvetica;
+  font-family: Helvetica;
 }
 
 .list {
@@ -13,7 +17,6 @@ body{
   padding:15px;
   margin: 0 auto;
   width: 1400px;
-
 }
 
 .head_menu ul{
@@ -34,18 +37,18 @@ body{
 }
 
 .head_menu li a{
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 
 .head_menu li:hover {
-    background: linear-gradient(0deg, #444343 0%, #5e5e5e 100%);
-    border-right: 1px solid #959595;
-    border-left: 1px solid #959595;
+  background: linear-gradient(0deg, #444343 0%, #5e5e5e 100%);
+  border-right: 1px solid #959595;
+  border-left: 1px solid #959595;
 }
 
 .image_rotation{
-  float: right;
+  float: right;*/
   width: 50%;
   border: 2px solid #eae8e8;
   margin: 0px 200px 10px 10px;
@@ -53,14 +56,14 @@ body{
 }
 
 .text {
-    clear: both;
-    padding-left: 447px;
-    padding-right: 200px;
+  clear: both;
+  padding-left: 447px;
+  padding-right: 200px;
 }
 
 p {
-    text-align: justify;
-    font-family: OpenSans;
+  text-align: justify;
+  font-family: Helvetica;
 }
 
 
@@ -78,7 +81,6 @@ p {
 .left_menu ul{
   padding-left: 0;
   margin-bottom: auto;
-
 }
 
 .left_menu li{
@@ -86,22 +88,22 @@ p {
 }
 
 .left_menu a{
-    text-decoration: none;
-    display: block;
-    border-bottom: 1px solid #eae8e8;
-    color: black;
-    width: 225px;
-    height: 30px;
-    padding: 10px 2px 2px 15px;
-    text-align: left;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #eae8e8;
+  color: black;
+  width: 225px;
+  height: 30px;
+  padding: 10px 2px 2px 15px;
+  text-align: left;
 }
 
 .left_menu li a{
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .left_menu li:hover {
-    background: linear-gradient(0deg, #f9f9f9 0%, #f6f2f2 100%);
+  background: linear-gradient(0deg, #f9f9f9 0%, #f6f2f2 100%);
 }
 
 .bottom_menu ul{
@@ -113,13 +115,12 @@ p {
 }
 
 .bottom_menu li{
-    display: inline-block;
-    font-size: 14px;
-    width: 130px;
-    line-height: 45px;
-    letter-spacing: normal;
-    text-align: center;
-
+  display: inline-block;
+  font-size: 14px;
+  width: 130px;
+  line-height: 45px;
+  letter-spacing: normal;
+  text-align: center;
 }
 
 .bottom_menu a{
@@ -129,7 +130,9 @@ p {
 
 
 .copy {
-    white-space: pre;
-    width: 365px;
-    padding-left: 333px;
+  white-space: pre;
+  width: 365px;
+  padding-left: 333px;
 }
+
+
