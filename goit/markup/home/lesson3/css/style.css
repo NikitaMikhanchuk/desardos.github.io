@@ -1,27 +1,42 @@
 body{
-  background:#00000;
-  width: 1300px;
-  margin-left: 350px;
+  background:#BBBBBB;
+  /*width: 1300px;
+  margin-left: 350px;*/
 }
+
 
 .global_text_Style {
     font-family: Helvetica;
+
 }
 
-.list {
-  background:#FFFFFF;
+.fitnes_font_size{
+  font-size: 25px;
+}
+
+/*.list {
+  background:#000000;
   padding:15px;
   margin: 0 auto;
   width: 1400px;
+}*/
 
+.list {
+  width:1050px;
+  height: 950px;
+  background:#FFFFFF;
+  padding:15px;
+  margin: 0 auto;
+  padding-left: 50px;
 }
+
 
 .head_menu ul{
   font-size: 0;
   line-height: 0;
   margin-bottom: 55px;
   background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
-  width: 1065px;
+  width: 960px;
 }
 
 .head_menu li {
@@ -46,16 +61,20 @@ body{
 
 .image_rotation{
   float: right;
-  width: 50%;
+  /*width: 50%;*/
   border: 2px solid #eae8e8;
   margin: 0px 200px 10px 10px;
-  text-align: center;
+  text-align: right;
+  width: 660px;
+  height: 450px;
+  margin-right: 50px;
+  margin-bottom: 50px;
 }
 
 .text {
     clear: both;
-    padding-left: 447px;
-    padding-right: 200px;
+    padding-left: 347px;
+    padding-right: 57px;
 }
 
 p {
@@ -109,7 +128,7 @@ p {
   background: #e1e1e1;
   font-size: 0;
   line-height: 0;
-  width: 1065px;
+  width: 960px;
 }
 
 .bottom_menu li{
@@ -130,6 +149,6 @@ p {
 
 .copy {
     white-space: pre;
-    width: 365px;
-    padding-left: 333px;
+    width: 355px;
+    padding-left: 230px;
 }
