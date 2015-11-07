@@ -47,6 +47,12 @@ body{
   border-left: 1px solid #959595;
 }
 
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
 .image_rotation{
   float: right;
   border: 2px solid #eae8e8;
@@ -73,19 +79,21 @@ p {
 }
 
 .left_menu{
-  display: inline-block;
-  width: 130px;
-  float: left;
-  width: 240px;
   font-size: 14px;
   border: 1px solid #eae8e8;
-  margin:0px;
+  width: 240px;
 }
 
 .left_menu ul{
   padding-left: 0;
   margin-bottom: auto;
   margin-top: 0;
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
 }
 
 .left_menu li{
@@ -132,6 +140,7 @@ p {
   text-decoration: none;
   color: black;
 }
+
 
 a:hover {
     color: #04266a;
