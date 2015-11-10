@@ -90,7 +90,6 @@ p {
   margin-top: 0;
 }
 
-
 .left_menu li{
   display: inline-block;
 }
@@ -136,11 +135,10 @@ p {
   color: black;
 }
 
-
 a:hover {
     color: #04266a;
     text-decoration: underline;
-   }
+}
 
 .copy {
   white-space: pre;
