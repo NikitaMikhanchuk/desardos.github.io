@@ -1,30 +1,25 @@
 body{
   background:#BBBBBB;
-}
-
-.global_text_Style {
-    font-family: Helvetica;
-}
-
-.fitnes_font_size{
-  font-size: 25px;
+  font-family: Helvetica, sans-serif;
 }
 
 .list {
   width:1050px;
-  height: 965px;
   background:#FFFFFF;
   padding:15px;
   margin: 0 auto;
   padding-left: 50px;
 }
 
+.head_menu{
+  width: 1007px;
+}
+
 .head_menu ul{
-  font-size: 0;
+  padding: 0;
   line-height: 0;
   margin-bottom: 43px;
   background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
-  width: 970px;
 }
 
 .head_menu li {
@@ -47,21 +42,26 @@ body{
   border-left: 1px solid #959595;
 }
 
-.clearfix:after {
+.content_clearfix{
+  padding-right: 45px;
+  content: '';
+  clear: both;
+  display: block;
+}
+
+/*.clearfix:after {
     content: '';
     clear: both;
     display: block;
-}
+}*/
 
 .image_rotation{
   float: right;
   border: 2px solid #eae8e8;
   text-align: center;
   width: 720px;
-  height: 380px;
-  margin-right: 43px;
-  margin-bottom: 0px;
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .text {
@@ -90,11 +90,6 @@ p {
   margin-top: 0;
 }
 
-.clearfix:after {
-    content: '';
-    clear: both;
-    display: block;
-}
 
 .left_menu li{
   display: inline-block;
