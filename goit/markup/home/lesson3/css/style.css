@@ -6,9 +6,8 @@ body{
 .list {
   width:1050px;
   background:#FFFFFF;
-  padding:15px;
+  padding:15px 0px 80px 50px;
   margin: 0 auto;
-  padding-left: 50px;
 }
 
 .head_menu{
