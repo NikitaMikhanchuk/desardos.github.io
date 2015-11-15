@@ -1,0 +1,189 @@
+body {
+	background: #07a6a6 url(../img/background.png);
+	font-family: Helvetica, sans-serif;
+}
+
+.list {
+	width: 940px;
+	background: #ffffff;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 0px 33px 9px 28px;
+}
+
+.logo {
+	float: left;
+}
+
+.header_right {
+	float: right;
+}
+
+.header_content {
+	line-height: 0;
+	vertical-align: 0;
+	font-style: 0;
+	padding: 14px 0 24px 147px;
+}
+
+.header_content p {
+	width: 127px;
+	font-size: 12px;
+	line-height: 15px;
+	color: #009999;
+}
+
+.countries {
+	float: right;
+}
+
+.countries a {
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+	vertical-align: 0;
+	border:0;
+	text-align: center;
+	color: #009999;
+}
+
+.countries a:hover {
+	text-decoration: none;
+}
+
+.countries span {
+	display: block;
+	font-size: 10px;
+	padding: 5px 0 8px;
+	text-align: center;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+.slider img {
+	clear: both;
+	display: block;
+	width: 940px;
+}
+
+
+.menu_list {
+	background: #333;
+	border-bottom: 1px solid #000;
+}
+
+.menu_list > li {
+	position: relative;
+	float: left;
+}
+
+.menu_list li a {
+	display: block;
+	width: 140px;
+	font-size: 12px;
+	line-height: 29px;
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+}
+
+.menu_list .drop_item > a, .drop_item ul a {
+	width: 112px;
+	padding-left: 12px;
+	text-align: left;
+}
+
+.drop_item ul {
+	position: absolute;
+	left: -9999px;
+	top: 100%;
+	background: #333;
+}
+
+.drop_item  ul li {
+	height: 27px;
+	background: #333;
+}
+
+.menu_list > li:hover ul {
+	left: auto;
+}
+
+.menu_list > li:hover {
+	background: #01010d;
+}
+
+.drop_item ul li:hover {
+	background: #01010d;
+}
+
+.menu_list .drop_item > a:after {
+	content: " ";
+	position: absolute;
+	border-top: 5px solid #fff;
+	border-left: 5px solid transparent;
+	border-right: 4px solid transparent;
+	top: 12px;
+}
+
+.content {
+	width: 940px;
+	overflow: hidden;
+}
+
+.content h2 {
+	padding: 12px 0 7px;
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+	color: #333;
+}
+
+.content div:not(:last-child) {
+	border-right: 1px solid #ccc;
+}
+
+.content div p {
+	padding-left: 16px;
+	font-size: 14px;
+	line-height: 24px;
+	color: #333;
+}
+
+.content div p:last-child {
+	padding-bottom: 15px;
+}
+
+.information {
+	width: 208px;
+	float: left;
+	padding-bottom: 320px;
+	margin-bottom: -320px;
+}
+
+.news {
+	width: 209px;
+	float: right;
+}
+
+.main_list {
+	margin: 0 208px 0 209px;
+	padding-bottom: 600px;
+	margin-bottom: -600px;*/
+}
+
+
+footer p {
+	width: 100%;
+	padding: 9px 0 11px;
+	font-size: 12px;
+	text-align: center;
+	color: #fff;
+}
