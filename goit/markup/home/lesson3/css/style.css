@@ -10,8 +10,14 @@ body{
   margin: 0 auto;
 }
 
+.logo
+{
+  padding: 10px;
+}
+
 .head_menu{
   width: 1007px;
+   line-height:0; font-size:0; vertical-align:middle;
 }
 
 .head_menu ul{
@@ -41,11 +47,14 @@ body{
   border-left: 1px solid #959595;
 }
 
-.content_clearfix{
-  padding-right: 45px;
-  content: '';
+.content{
   clear: both;
   display: block;
+  content: '';
+}
+
+.content_clearfix{
+  padding-right: 45px;
 }
 
 /*.clearfix:after {
