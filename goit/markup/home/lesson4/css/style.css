@@ -1,5 +1,5 @@
 body {
-	background: #07a6a6 url(../img/background.png);
+	background: url(../img/background.jpg);
 	font-family: Helvetica, sans-serif;
 }
 
@@ -26,6 +26,7 @@ body {
 	vertical-align: 0;
 	font-style: 0;
 	padding: 14px 0 24px 147px;
+	white-space: pre;
 }
 
 .header_content p {
@@ -61,10 +62,11 @@ body {
 }
 
 .clearfix:after {
-	content: ".";
+	content: " ";
 	display: block;
 	height: 0;
 	clear: both;
+
 }
 
 .slider img {
@@ -85,19 +87,20 @@ body {
 }
 
 .menu_list li a {
-	display: block;
-	width: 140px;
-	font-size: 12px;
-	line-height: 29px;
-	text-decoration: none;
-	text-align: center;
-	color: #fff;
+
+	position: relative;
+  padding: 0 33px;
+  display: block;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .menu_list .drop_item > a, .drop_item ul a {
-	width: 112px;
-	padding-left: 12px;
-	text-align: left;
+	width: 97px;
+	padding-left: 6px;
+	text-align: center;
 }
 
 .drop_item ul {
@@ -178,7 +181,6 @@ body {
 	padding-bottom: 600px;
 	margin-bottom: -600px;*/
 }
-
 
 footer p {
 	width: 100%;
