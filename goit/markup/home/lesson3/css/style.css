@@ -3,6 +3,13 @@ body{
   font-family: Helvetica, sans-serif;
 }
 
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
 .list {
   width:1050px;
   background:#FFFFFF;
@@ -57,11 +64,6 @@ body{
   padding-right: 45px;
 }
 
-/*.clearfix:after {
-    content: '';
-    clear: both;
-    display: block;
-}*/
 
 .image_rotation{
   float: right;
