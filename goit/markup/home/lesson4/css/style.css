@@ -17,7 +17,7 @@ body {
 }
 
 .header {
-	padding: 0px 33px 7px 28px;
+	padding: 0px 33px 11px 28px;
 }
 
 
@@ -35,7 +35,7 @@ body {
 	line-height: 0;
 	vertical-align: 0;
 	font-style: 0;
-	padding: 14px 0 24px 147px;
+	padding: 14px 0 24px 187px;
 	white-space: pre;
 }
 
@@ -46,30 +46,49 @@ body {
 	color: #009999;
 }
 
+
+
 .countries {
-	float: right;
+		float: right;
+		clear: right;
+		margin-right: 5px;
 }
 
-.countries a {
-	display: inline-block;
-	font-size: 0;
-	line-height: 0;
-	vertical-align: 0;
-	border:0;
-	text-align: center;
-	color: #009999;
+.countries_menu li {
+		display: inline-block;
+		font-size: 0;
+		line-height: 0;
+		vertical-align: middle;
+		border:0;
+		text-align: center;
 }
 
-.countries a:hover {
-	text-decoration: none;
+.countries_menu a {
+		color: #009999;
+
 }
 
-.countries span {
-	display: block;
-	font-size: 10px;
-	padding: 5px 0 8px;
-	text-align: center;
+.countries_menu a:hover {
+		color: #009999;
+		text-decoration: none;
 }
+
+.countries_menu img {
+		height: 40px;
+		display: block;
+		margin-left: 15px;
+		padding-bottom: 5px;
+}
+
+.countries_menu span {
+		display: block;
+		font-family: Tahoma, sans-serif;
+		font-size: 10px;
+		padding-top: 2px;
+		padding-left: 12px;
+}
+
+
 
 .clearfix:after {
 	content: " ";
