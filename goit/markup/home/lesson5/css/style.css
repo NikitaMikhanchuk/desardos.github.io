@@ -10,7 +10,7 @@
 .header {
 	height: 35px;
 	width: 100%;
-	background-image: url(../img/bg.jpg);
+	background-image:url(../img/bg.jpg);
 }
 
 .header * {
@@ -23,7 +23,7 @@
 	margin-right: 20px;
 	text-align: center;
 	width: 190px;
-	background-image: url("../img/login-background");
+	background-image: url(../img/login-background);
 }
 
 .login a:hover{
@@ -37,7 +37,7 @@
 	width: 145px;
 	text-align: right;
 	padding: 0px 17px 0px 20px;
-	background: url(../img/flag.png) 35px 7px no-repeat;
+	background:url(../img/flag.png) 35px 7px no-repeat;
 	border-left: 1 px solid blue;
 }
 
@@ -71,7 +71,7 @@
 .wrapper {
 	height: 1025px;
 	width: 100%;
-	background-image: url(..img/bg.jpg);
+	background-image: url(../img/bg.jpg);
 }
 
 .input-form {
