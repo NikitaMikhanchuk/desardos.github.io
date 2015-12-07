@@ -10,7 +10,7 @@
 .header {
 	height: 35px;
 	width: 100%;
-	background-image:url(../img/bg.jpg);
+	background-image:url(../img/bg-header.jpg);
 }
 
 .header * {
@@ -82,7 +82,7 @@
 	height: 610px
 }
 
-.input-form--header {
+.input-form-header {
 	height: 62px;
 	margin-bottom: 2px;
 	background: rgba (0,0,0,0.63);
@@ -91,7 +91,7 @@
 	line-height: 62px; 
 }
 
-.input-form--content {
+.input-form-content {
 	background: rgba(0,0,0,0.63);
 	height: 550px;
 }
@@ -112,9 +112,40 @@
 	border: none;
 }
 
-.ou{
+/*.ou{
 	height: 75px;
 	background: url(../img/ou.jpg) 145px 35px no-repeat;
+}*/
+
+
+h2 {
+    position: relative;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2:before {
+    position: absolute;
+    content: "";
+    width: 223px;
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #000;
+    left: 1px;
+    bottom: 27px;
+}
+
+h2:after {
+    position: absolute;
+    content: "";
+    width: 223px;
+    border-top: 1px solid #666666;
+    border-bottom: 1px solid #000;
+    right: 1px;
+    bottom: 27px;
 }
 
 .form{
