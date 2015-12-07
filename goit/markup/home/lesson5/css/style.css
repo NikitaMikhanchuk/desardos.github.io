@@ -23,7 +23,7 @@
 	margin-right: 20px;
 	text-align: center;
 	width: 190px;
-	background-image: url(../img/login-background);
+	background-image: url(../img/login-background.jpg);
 }
 
 .login a:hover{
@@ -82,7 +82,7 @@
 	height: 610px
 }
 
-.input-form-header {
+.input-form--header {
 	height: 62px;
 	margin-bottom: 2px;
 	background: rgba (0,0,0,0.63);
@@ -91,7 +91,7 @@
 	line-height: 62px; 
 }
 
-.input-form-content {
+.input-form--content {
 	background: rgba(0,0,0,0.63);
 	height: 550px;
 }
@@ -131,21 +131,23 @@ h2 {
 h2:before {
     position: absolute;
     content: "";
-    width: 223px;
+    width: 120px;
     border-top: 1px solid #666666;
     border-bottom: 1px solid #000;
     left: 1px;
     bottom: 27px;
+    margin-left: 141px;
 }
 
 h2:after {
     position: absolute;
     content: "";
-    width: 223px;
+    width: 120px;
     border-top: 1px solid #666666;
     border-bottom: 1px solid #000;
     right: 1px;
     bottom: 27px;
+    margin-right: 141px;
 }
 
 .form{
@@ -154,6 +156,7 @@ h2:after {
 	margin: 0 auto;
 	width: 276px;
 	font-size: 14px;
+	/*background: rgba(0,0,0,0.63);*/
 }
 
 .input {
