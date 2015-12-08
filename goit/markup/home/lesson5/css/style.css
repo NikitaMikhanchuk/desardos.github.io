@@ -2,10 +2,18 @@
 	padding: 0;
 	margin: 0;
 	background-size: 100% 100%;
-	font-family: Thoma, Arial;
+	font-family: Thoma, sans-serif;
 	list-style: none;
 	color: white;
 }
+
+.wrapper {
+	height: 1025px;
+	width: 100%;
+	background-image: url(../img/bg.jpg);
+}
+
+/* TOP MENU */
 
 .header {
 	height: 35px;
@@ -18,12 +26,14 @@
 	font-size: 14px;
 }
 
+
 .login {
 	float: right;
 	margin-right: 20px;
 	text-align: center;
 	width: 190px;
 	background-image: url(../img/login-background.jpg);
+
 }
 
 .login a:hover{
@@ -31,14 +41,12 @@
 }
 
 .offer {
-	margin: 2px;
 	height: 31px;
 	float: right;
 	width: 145px;
 	text-align: right;
 	padding: 0px 17px 0px 20px;
-	background:url(../img/flag.png) 35px 7px no-repeat;
-	border-left: 1 px solid blue;
+	background: url(../img/flag.png) 35px 3px no-repeat;
 }
 
 .offer a {
@@ -68,11 +76,7 @@
 	color: white;
 }
 
-.wrapper {
-	height: 1025px;
-	width: 100%;
-	background-image: url(../img/bg.jpg);
-}
+/* --- CENTRAL MENU --- */
 
 .input-form {
 	position: relative;
@@ -82,7 +86,7 @@
 	height: 610px
 }
 
-.input-form--header {
+.input-form-header {
 	height: 62px;
 	margin-bottom: 2px;
 	background: rgba (0,0,0,0.63);
@@ -91,7 +95,7 @@
 	line-height: 62px; 
 }
 
-.input-form--content {
+.input-form-content {
 	background: rgba(0,0,0,0.63);
 	height: 550px;
 }
@@ -111,11 +115,6 @@
 	width: 280px;
 	border: none;
 }
-
-/*.ou{
-	height: 75px;
-	background: url(../img/ou.jpg) 145px 35px no-repeat;
-}*/
 
 
 h2 {
@@ -159,6 +158,7 @@ h2:after {
 }
 
 .input {
+
 	width: 276px;
 	height: 34px;
 	font-size: 14px;
@@ -167,6 +167,7 @@ h2:after {
 	text-indent: 20px;
 	border-bottom: 1px solid #484948;
 	background: #0f0f0f;
+
 }
 
 .input:focus{
@@ -200,5 +201,5 @@ h2:after {
 	width: 151px;
 	border-radius: 3px;
 	border: 1px solid #63a7e3;
-	background: -webkit-linear-gradient (top, #50aedb 0%, #2e7ac4 100%);
+	background-image: url(../img/login-background.jpg)
 }	

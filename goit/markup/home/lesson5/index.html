@@ -6,6 +6,7 @@
 	<link rel = 'stylesheet' href = "css/style.css">
 </head>
 <body>
+<div class="wrapper">
 	<div class = "header">
 		<div class = "login">
 			<span>01a! <a href="#">Entrar</a> ou <a href="#">Cadastre</a></span>
@@ -21,12 +22,12 @@
 			<li><a href="#">Meu YouBike</a></li>
 		</ul>
 	</div>
-	<div class="wrapper">
+	
 		<div class="input-form">
-			<div class="input-form--header">
+			<div class="input-form-header">
 				<p>Cadastre-se</p>
 			</div>
-			<div class="input-form--content">
+			<div class="input-form-content">
 				<div class="facebook">
 					<form action="#" method = "GET">
 						<input type = "button" value = "" class = "facebook-btn">
@@ -35,26 +36,21 @@
 
 				<h2>OU</h2>
 
-				<!--<div class = "ou"></div> -->
 				<div class = "form">
 					<form action="#" method="GET">
-
-					<input type ="text" name = "FirstName" placeholder = "First Name" calss = "input" required>
-					<input type ="text" name = "LastName" placeholder = "Last Name" calss = "input" required>
-					<input type ="text" name = "EmailAdress" placeholder = "Email Adress" calss = "input" required>
-					<input type ="text" name = "ChoosePassword" placeholder = "Chose Password" calss = "input" required>
-					<input type ="text" name = "FirstName" placeholder = "First Name" calss = "input" required>
+						<input type ="text" name = "FirstName" placeholder = "First Name" class = "input" required>
+						<input type ="text" name = "LastName" placeholder = "Last Name" class = "input" required>
+						<input type ="text" name = "EmailAdress" placeholder = "Email Adress" class = "input" required>
+						<input type ="text" name = "ChoosePassword" placeholder = "Chose Password" class = "input" required>
+						<input type ="text" name = "ConfirmPassword" placeholder = "Confirm Password" class = "input" required>
 						<div class = "checkbox">
 							<input type="checkbox" name = "sendmeupdate" id = "sendUpdate">
 							<label for = "sendUpdate">Send me Youbike updates and tips </label>
 						</div>
-
 						<input type = "button" value = "Create my Account" class = "account-btn">
 					</form>
-
 					<p>By clicking the button above, you agree to the Terms of Service</p>
 					<p>Xiew our Privacy Policy.</p>
-
 				</div>
 			</div>
 		</div>
