@@ -1,3 +1,12 @@
+html{
+	height: 100%
+}
+
+body{
+	height: 100%;
+	width: 100%;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -8,7 +17,7 @@
 }
 
 .wrapper {
-	height: 1025px;
+	height: 100%;
 	width: 100%;
 	background-image: url(../img/bg.jpg);
 }
@@ -79,8 +88,10 @@
 /* --- CENTRAL MENU --- */
 
 .input-form {
-	position: relative;
-	top: 215px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	margin: auto;
 	width: 560px;
 	height: 610px
@@ -185,14 +196,26 @@ h2:after {
 .form p{
 	text-align: center;
 	font-size: 11px;
-	white-space: nowrap;
+	white-space: nowrap; /*возможно не надо*/
 	padding-top: 20px;
 }
+
+
+/*.content .form p {
+	width: 315px;
+	padding-bottom: 17px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 11px;
+	line-height: 17px;
+	color: #ccc;*/
 
 .form p:last-child{
 	padding-bottom: 20px;
 	padding-top: 7px;
+
 }
+
 
 .account-btn{
 	display: block;
