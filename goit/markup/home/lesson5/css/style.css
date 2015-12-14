@@ -193,28 +193,13 @@ h2:after {
 	margin-top: 2px;
 }
 
-.form p{
+
+.textEdit{
+	font-size: 12px;
+	padding-top: 25px;
 	text-align: center;
-	font-size: 11px;
-	white-space: nowrap; /*возможно не надо*/
-	padding-top: 20px;
 }
 
-
-/*.content .form p {
-	width: 315px;
-	padding-bottom: 17px;
-	margin: 0 auto;
-	text-align: center;
-	font-size: 11px;
-	line-height: 17px;
-	color: #ccc;*/
-
-.form p:last-child{
-	padding-bottom: 20px;
-	padding-top: 7px;
-
-}
 
 
 .account-btn{
