@@ -27,7 +27,7 @@ body{
 .header {
 	height: 35px;
 	width: 100%;
-	background-image:url(../img/bg-header.jpg);
+	background-color: #0b5292;
 }
 
 .header * {
