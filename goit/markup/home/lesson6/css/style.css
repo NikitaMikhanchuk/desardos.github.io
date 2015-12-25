@@ -2,7 +2,7 @@ body {
 	background: #fff;
 }
 
-.content {
+.list {
 	width: 913px;
 	margin: 0 auto;
 }
@@ -13,10 +13,10 @@ header {
 }
 
 header .phone{
-	float: left;
 	margin-left: 33px;
 	margin-top: 3px;
 	font: 400 19px / 28px Arial, sans-serif;
+	float: left;
 	color: #5e696d;
 }
 
@@ -31,15 +31,7 @@ header .phone:before {
 	background: url(../img/phone.png) no-repeat;
 }
 
-.ent {
-	width: 496px;
-	height: 26px;
-	margin-left: 14px;
-	margin-top: 3px;
-	background: linear-gradient(to top, #0d3458, #1f6685);
-	box-shadow: 1px 3px 3px 0.00px rgba(150, 150, 150, 0.75);
-	border-radius: 4px;
-}
+
 
 header form {
 	float: left;
@@ -56,6 +48,16 @@ header form:before {
 	top: 7px;
 	left: 626px;
 	background: url(../img/autoriz.png) no-repeat;
+}
+
+.ent {
+	width: 496px;
+	height: 26px;
+	margin-left: 14px;
+	margin-top: 3px;
+	background: linear-gradient(to top, #0d3458, #1f6685);
+	box-shadow: 1px 3px 3px 0.00px rgba(150, 150, 150, 0.75);
+	border-radius: 4px;
 }
 
 .ent input {
@@ -90,6 +92,7 @@ header div {
 	text-decoration: none;
 } 
 
+
 .enter:after {
 	content: '';
 	display: block;
@@ -107,7 +110,7 @@ header div {
 	font-size: 12px;
 }
 
-.icons {
+.right_icons {
 	width: 75px;
 	height: 19px;
 	border: 1px solid #c4c8cb;
@@ -116,18 +119,18 @@ header div {
 	margin-top: 3px;
 }
 
-.icons img {
+.right_icons img {
 	margin: 3px 6px;
 }
 
 /*IMAGE*/
-.img-logo {
+.logo {
 	width: 909px;
 	height: 237px;
 	background: url(../img/blick-copy.png);
 }
 
-.img-logo a {
+.logo a {
 	display: block;
 	width: 265px;
 	height: 78px;
@@ -139,7 +142,7 @@ header div {
 	width: 910px;
 	height: 33px;
 	margin-top: 7px;
-	background: linear-gradient(to top, #050506, #464d54);
+	background: linear-gradient(to top, #051506, #464d54);
 	border-radius: 4px;
 	position: relative;
 	box-shadow: 1px 3px 5px 0.00px rgba(0, 0, 0, 0.75);
@@ -235,7 +238,7 @@ header div {
 	color: #206988;
 }
 
-.items .item_discr {4
+.items .item_discr {
 	display: block;
 	font: 400 13px / 18px 'Lucida Sans Unicode', Arial, sans-serif;
 	color: #1f2528;
