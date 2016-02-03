@@ -164,6 +164,7 @@ header div {
 	color: #53656c;
 	font-size: 14px;
 	text-decoration: none;
+
 }
 
 .menu div {
@@ -350,7 +351,6 @@ header div {
 .katalog_disc li,
 .katalog_tires li{
 	list-style: url(../img/Shape-12-copy-16.png);
-	margin-left: 50px;
 	width: 132px;
 	
 }
