@@ -1,0 +1,44 @@
+.top-menu .menu_link:hover {
+	border-bottom: 2px solid rgb(237, 191, 255);
+}
+
+.container-bottom:before,
+.container-bottom:after,
+.container-bottom:hover:before,
+.container-bottom:hover:after  {
+	content: '';
+	position: absolute;
+	width: 30.24px;
+	height: 100%;
+	top: 0px;
+	right: -10%;
+	background: url(../img/arrow_right.png) center center no-repeat;
+	cursor: pointer;
+}
+
+.container-bottom:before,
+.container-bottom:hover:before {
+	background: url(../img/arrow_left.png) center center no-repeat;
+	left: -10%;
+}
+
+
+.radio_link{
+	background: rgb(147,147,147);
+}
+
+
+.radio_link:hover {
+	border: 2.96px solid rgb(147,147,147);
+}
+
+.blog {
+	border-top: 1px solid rgb(0,0,0);
+	border-bottom: 1px solid rgb(29,47,55);
+	background: rgb(116,80,131);
+}
+
+
+.radio-black .radio_link:hover {
+	background: rgb(147,147,147);
+}

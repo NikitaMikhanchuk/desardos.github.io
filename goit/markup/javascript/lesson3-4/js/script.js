@@ -24,15 +24,15 @@ var app = {
 
   generateQuestions: function(questionsAmount, answersAmount) {
 
-    for (var i = 1; i < questionsAmount + 1; i++) {
+    for (var i = 1; i < questionsAmount+1; i++) {
 
       this.createElement({
         tagName: 'h3',
-        content: i+'. Question №1',
+        content: i+'. Вопрос №' + i,
         parentElement: form
       });
 
-      for (var userAnswers = 0; userAnswers < answersAmount; userAnswers++) {
+      for (var j = 0; j < answersAmount; j++) {
 
         var wrap = this.createElement({
           tagName: 'div',
@@ -53,7 +53,7 @@ var app = {
 
         var text = this.createElement({
           tagName: 'span',
-          content: 'Answer №' + (userAnswers + 1),
+          content: 'Вариант ответа №' + (j + 1),
         })
 
         label.appendChild(text)
@@ -66,3 +66,27 @@ var app = {
 
 }
 
+
+var body = document.querySelector('body');
+
+
+app.createElement({
+  tagName: 'h1',
+  content: 'Тест по программированию',
+  parentElement: body
+});
+
+var form = app.createElement({
+  tagName: 'form',
+  parentElement: body
+});
+
+app.generateQuestions(3, 3);
+
+app.createElement({
+  tagName: 'button',
+  inputType: 'submit',
+  className: 'btn btn-primary btn-lg',
+  content: 'Проверить мои результаты',
+  parentElement: form
+});
